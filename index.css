@@ -33,6 +33,7 @@
     height: 40px;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
+    font: bold;
 }
 .buton:hover {
     color: rgb(80, 67, 67);
