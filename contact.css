@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    background-color: #fdfdfd;
+    margin: 0;
+  }
+  
+  .profile-card {
+    position: relative;
+    background-color: #fff;
+    width: 25rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 1.5rem 2rem -1.2rem rgba(0, 0, 0, 0.15);
+    padding: 8rem 1rem 1rem;
+  }
+  
+  .profile-card:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 55%;
+    background-image: url("https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8Z2FsYXh5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    position: absolute;
+    border-radius: 1.4rem 1.4rem 8rem 8rem;
+    top: 0;
+    left: 0;
+  }
+  
+  .profile-card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .profile-card__avatar {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    width: 12rem;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.75),
+      0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.3);
+    margin: 0 0 1rem;
+  }
+  
+  .profile-card__name {
+    font-weight: 300;
+    font-size: 2.2rem;
+    margin: 1rem 0;
+    color: #1f1f1f;
+  }
+  
+  .profile-card__job {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0 0 1rem;
+  }
+  .menu{
+    list-style-type: none;
+  }
+  .menu li{
+    float: left;
+    margin: 30px;
+  }
+  .menu li a{
+    text-decoration: none;
+    color: rgb(215, 243, 243);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .menu li a:hover{
+    color: rgb(112, 236, 236);
+  }
