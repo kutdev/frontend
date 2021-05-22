@@ -1,0 +1,334 @@
+html {
+    font-size: 6px;
+}
+body {
+    font-family: Montserrat;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    
+ 
+ }
+ *{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+ }
+ .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10.5rem ;
+    padding-right: 10.5rem;
+}
+.container {
+    padding-top: 2.5rem;
+    padding-bottom:2.5rem ;
+    background-color: dimgrey;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+
+}
+.container ul li {
+    list-style-type: none;
+    float: right;
+    margin-right: 3rem;
+    letter-spacing: .2rem;
+}
+.container ul li a {
+    text-decoration: none;
+    transition: color .5s;
+    color: aliceblue;
+}
+.container ul li a:hover{
+    color: rgb(94, 146, 190);
+
+}
+.text-uppercase {
+    text-transform:uppercase ;
+}
+#logo-box h1{
+    color: aliceblue;
+    font-family: Montserrat, sans-serif;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.phpt {
+    width: 100%;
+    height: 30rem;
+}
+.line-through{
+    border: none;
+    border-top: .4rem solid aliceblue;
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    }
+    .fark{
+        
+        color: aliceblue;
+        font-size: 4rem;
+        text-align: center;
+        
+        
+        
+        background-color: dimgrey;
+        border:6rem ;
+    }
+    .about-header{
+        text-align: center;
+    }
+    .about-header h2{
+        color: aliceblue;
+        font-size: 3.4rem;
+    }
+
+    #about {
+        background-color: dimgrey;
+        padding-bottom: 10rem;
+    }
+    #header{
+        text-align: center;
+        padding-bottom: 20rem;
+
+    }
+   
+    #header-box h2{
+        font-size: 3.4rem;
+        color: dimgrey;
+    }
+    .line-through-dark{
+        border: none;
+        border-top: .4rem solid dimgrey;
+        max-width: 25rem;
+        margin: 2.5rem auto;
+        }
+        .fart{
+            
+            color: dimgrey;
+            font-size: 4rem;
+            text-align: center;
+            
+            
+            background-color: #FFF;
+            border:6rem ;
+        }
+        #header-box h3{
+            font-family: KoHo, sans-serif;
+            font-size: 2.3srem;
+            margin-top: 50px;
+        }
+        #about-text p {
+            color: aliceblue;
+            width: 33.333%;
+            text-align: center;
+            margin-top: 7rem;
+
+        }
+        .farl{
+            
+            color: dimgrey;
+            font-size: 4rem;
+            text-align: center;
+           
+            
+            background-color: #FFF;
+            border:6rem ;
+        }
+        #shop-header h2 {
+            text-align: center;
+            font-size: 3.4rem;
+            color: dimgrey;
+            margin-bottom: 30px;
+        }
+        #shop {
+            padding-bottom: 10rem;
+    
+        }
+        #purchaseable-plan {
+            width: 33.333%;
+            background-color: dimgrey;
+           padding-bottom: 10px;
+            padding-top: 10px;
+            font-size: 3rem;
+            margin-left: 30px;
+            margin-top: 60px;
+            border-radius: 10px;
+        }
+        #purchaseable-plan h4{
+            color:aliceblue ;
+            text-align: center;
+            
+
+        }
+        #purchaseable-plan .fas{
+            color: aliceblue;
+            
+            text-align: center;
+            
+        }
+        #purchaseable-plan p {
+            color: aliceblue;
+            font-size: 1.5rem;
+            margin-top: 100px;
+            width: 50%;
+
+        }
+        .btn-purchase {
+            padding-bottom: 2rem;
+            width: 33.333%;
+            display: inline-block;
+            border-radius: 5px;
+            border: #fff;
+            margin-top: 270px;
+            text-align: center;
+            color: dimgrey;
+            background-color: aliceblue;
+            font-weight: 900;
+            font-family: Lato, sans-serif;
+            transition: color .10s;
+
+        }
+        .btn-purchase:hover{
+            background-color: rgb(175, 180, 184);
+        }
+        #purchaseable-plan h6 {
+            margin-top: 90px;
+            font-family: KoHo, sans-serif;
+            font-size: 3rem;
+            color: aliceblue;
+        }
+       
+        #contact {
+            padding-bottom: 150px;
+            background-color: darkslategrey;
+            text-align: center;
+        }
+        #contact-header h2 {
+            text-align: center;
+            color: aliceblue;
+            font-size: 3rem;
+        }
+        #contacts {
+            width: 33.333%;
+            text-align: center;
+            color: aliceblue;
+            margin-top: 30px;
+        }
+        
+
+        /* Responsive Part */
+
+
+        @media (min-width: 320px){
+            #purchaseable-plan {
+                width: 50%;
+                height: 700px;
+            }
+
+        }
+        @media (min-width: 576px){
+            html{
+                font-size: 7px;
+            }
+            .container {
+                max-width: 900px;
+            }
+            #purchaseable-plan {
+                width: 50%;
+                height: 750px;
+            }
+            .nav-icon{
+                display: none;
+            }
+        }
+
+        @media (min-width: 768px){
+            html{
+                font-size: 8px;
+            }
+            .container {
+                max-width: 1000px;
+            }
+            .nav-icon{
+                display: none;
+            }
+        }
+
+        @media (min-width: 992px){
+            html{
+                font-size: 9px;
+            }
+            .container {
+                max-width: 1200px;
+                
+            }
+            #purchaseable-plan {
+                width: 40%;
+            }
+            .nav-icon{
+                display: none;
+            }
+        }
+
+        @media (min-width: 1200px){
+            html{
+                font-size: 10px;
+            }
+            .container {
+                max-width: 1500px;
+               
+            }
+            #purchaseable-plan {
+                width: 33.3333%;
+            }
+            .nav-icon{
+                display: none;
+            }
+
+        }
+        @media (max-width: 992px){
+            .logo-box{
+                float:left;
+                text-align: left;
+            }
+            #nav-links{
+                float: none;
+            }
+            #nav-links ul li a {
+                float: none;
+                text-align: left;
+                box-sizing: border-box;
+                margin-top: 100px;
+                font-size: 15px;
+                padding-left: 0;
+                margin-bottom: 0;
+                
+            }
+            #nav-links ul li {
+                margin-top: 50px;
+            }
+            
+            
+            #nav-links .nav-icon {
+                display: block;
+                margin: 0;
+                position: absolute;
+                right: 30px;
+                top: 30px;
+                font-size: 20px;
+                
+            }
+            #nav-links.responsive li:not(:first-child){
+                display: none;
+            }
+            
+        }
+       
