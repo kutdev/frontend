@@ -37,7 +37,7 @@ body {
 
 }
 .container ul li {
-    list-style-type: none;
+    
     float: right;
     margin-right: 3rem;
     letter-spacing: .2rem;
@@ -50,6 +50,9 @@ body {
 .container ul li a:hover{
     color: rgb(94, 146, 190);
 
+}
+.container ul {
+    list-style-type: none;
 }
 .text-uppercase {
     text-transform:uppercase ;
@@ -279,7 +282,7 @@ body {
             #purchaseable-plan {
                 width: 40%;
             }
-            .nav-icon{
+            #nav-links i {
                 display: none;
             }
         }
@@ -295,7 +298,7 @@ body {
             #purchaseable-plan {
                 width: 33.3333%;
             }
-            .nav-icon{
+            #nav-links is{
                 display: none;
             }
 
@@ -305,25 +308,38 @@ body {
                 float:left;
                 text-align: left;
             }
+            .container {
+                padding-top: 30px;
+            }
             #nav-links{
                 float: none;
             }
+            #nav-links ul li{
+                float: left;
+                margin-top: 40px;
+            }
             #nav-links ul li a {
-                float: none;
+                float: left;
                 text-align: left;
                 box-sizing: border-box;
-                margin-top: 100px;
+                
                 font-size: 15px;
                 padding-left: 0;
                 margin-bottom: 0;
                 
             }
-            #nav-links ul li {
-                margin-top: 50px;
+            
+            
+            #nav-links i {
+                display: none;
+                margin: 0;
+                position: absolute;
+                right: 30px;
+                top: 30px;
+                font-size: 20px;
+                
             }
-            
-            
-            #nav-links .nav-icon {
+            #nav-links i {
                 display: block;
                 margin: 0;
                 position: absolute;
@@ -332,10 +348,12 @@ body {
                 font-size: 20px;
                 
             }
+            
+            
+            
             #nav-links.responsive li:not(:first-child){
                 display: none;
             }
             
         }
-
        
